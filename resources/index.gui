@@ -1,0 +1,28 @@
+<svg>
+  <rect width="100%" height="20" x="0" y="0" />
+  <text id="course-title" class="sensor-label">Test</text>
+  <text id="hole-number" class="sensor-data">?</text>
+  
+  <text id="front-label" class="sensor-label">front: </text>
+  <text id="front-data" class="sensor-data">?</text>
+
+  <text id="middle-label" class="sensor-label">middle: </text>
+  <text id="middle-data" class="sensor-data">?</text>
+
+  <text id="back-label" class="sensor-label">back: </text>
+  <text id="back-data" class="sensor-data">?</text>
+  
+  <!-- TOP RIGHT -->
+  <use id="btn-tr" href="#combo-button-upper-right" fill="fb-blue">
+    <set href="combo-button-icon" attributeName="href" to="btn_combo_skip_back_p.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="btn_combo_skip_back_press_p.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  <!-- BOTTOM RIGHT -->
+  <use id="btn-br" href="#combo-button-lower-right" fill="fb-green">
+    <set href="combo-button-icon" attributeName="href" to="btn_combo_skip_forward_p.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="btn_combo_skip_forward_press_p.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+
+</svg>

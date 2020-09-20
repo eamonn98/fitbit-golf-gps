@@ -1,0 +1,63 @@
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: start;
+  text-length: 6;
+  font-size: 20;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: start;
+  text-length: 32;
+  font-size: 20;
+}
+
+#hole-number {
+  font-size: 30;
+  x: 55%;
+  y: 85%;
+}
+
+#course-title {
+  font-size: 25;
+  text-length: 16;
+  y: 85%;
+  x: 10%;
+}
+
+#front-label {
+  x: 10%;
+  y: 20%;
+}
+
+#front-data {
+  x: $+5;
+  y: 20%;
+}
+
+#middle-label {
+  font-size: 30;
+  x: 10%;
+  y: 30%;
+}
+
+#middle-data {
+  font-size: 30;
+  x: $+5;
+  y: 30%;
+}
+
+#back-label {
+  font-size: 20;
+  x: 10%;
+  y: 40%;
+}
+
+#back-data {
+  x: $+5;
+  y: 40%;
+}
+
+
